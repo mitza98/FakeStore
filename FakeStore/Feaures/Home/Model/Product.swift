@@ -25,5 +25,5 @@ struct Rate: Codable {
 }
 
 extension Product {
-    static var mockData: Product = Product(id: 1, title: "Tricou", price: 13.1, description: "tricou de iarna gros", category: "Barbati", image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg", rating: Rate(rate: 5, count: 121))
+    static var mockData: Product = Product(id: 1, title: "Tricou", price: 13.1, description: "tricou de iarna gros dasiobfdisufbasiubgeiubieubfveiwu fei fbsdu buyv dsyu cvsdcuy vcdsy vcsduy vdsuyf bsdauds", category: "Barbati", image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg", rating: Rate(rate: 5, count: 121))
 }

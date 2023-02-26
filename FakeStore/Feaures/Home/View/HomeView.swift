@@ -15,7 +15,7 @@ struct HomeView: View {
                 VStack {
                     List(products.filteredProducts) { product in
                         NavigationLink {
-                            Text(product.title)
+                            ProductDetails(product: product)
                         } label: {
                             ProductView(product: product)
                         }
